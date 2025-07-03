@@ -3,7 +3,43 @@ img {
 }
 body {
     text-align: center;
-    font-family: "arial";
+    font-family: "sans-serif";
     background-color: mediumseagreen;
     color: powderblue;
+    background-image: url(https://imgs.search.brave.com/L-b8_GtpaG6xQNQeUOYU7_IzbbrU58kWIgwDBdzUZr0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wdWIt/c3RhdGljLmZvdG9y/LmNvbS9hc3NldHMv/YmcvYWQ4YjU3NTct/NWUxMy00MDFiLTk0/ZjQtNzAwYjMxYTI2/ZmE3LmpwZw);
+    #nav {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: darkslategrey;
+            height: 20;
+            position: top, sticky;
+            overflow: auto;
+            top: 2px;
+            left: 2px;
+            border-radius: 10px;
+        }
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #566c79;
+            color: white;
+            border-radius: 4px;
+        }
+        .active {
+            background-color: #537079;
+            color: white;
+            border-radius: 4px;
+        }
+        li {
+            text-align: center;
+            float: left;
+        }
+    }
 }
